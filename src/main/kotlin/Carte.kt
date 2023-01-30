@@ -5,7 +5,7 @@ class Carte {
     val couleurs = arrayListOf(TRÈFLE, CARREAU, CŒUR, PIQUE)
     val hauteurs = arrayListOf(DEUX, TROIS, QUATRE, CINQ, SIX, SEPT, HUIT, NEUF, DIX, VALET, DAME, ROI, AS)
     var hauteur: Pair<String, Int>
-    private var couleur: String
+    var couleur: String
 
 
     constructor(){
